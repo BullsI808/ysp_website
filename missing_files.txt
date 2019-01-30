@@ -1,0 +1,1 @@
+config.json and db.sql are in the gitignore for confidential reasons and because they are pointless to have at this point in time

@@ -1,12 +1,15 @@
-# Project Name
-Team Name<br />
-Team Members
+# Youth Service Project Website
+YSP Unicorns<br />
+Kaleb R. Horvath
+Justin E. Basuil
+Carter J. Halfmann
 
 ## Project Challenge
-Breif description of the challenge/problem your team is trying to solve.
+In essence, our goal is to build an efficient, compact, and easy-to-use 
+website that is small and jUsT wErKs!
 
 ## Project Proposal
-Description of your team's solution, include tech stack you will be using.
+
 
 ## Project Plan
 List the milestones in your project and high level tasks for each, for example:

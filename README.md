@@ -16,11 +16,15 @@ website that is small and jUsT wErKs!
 
 ## Project Plan
 List the milestones in your project and high level tasks for each, for example:
-- Create Design Wireframes and Mockups.
+- Create basic template for website.
     - Wireframe for page 1
     - Wireframe for page 2
+    
     - Design Mockup for page 1
     - Design Mockup for page 2
+    
+    -basic template for page 1
+    -basic template for page 2
 - Set up project file structure
     - Determine workflow, who will be project manager and maintainer of repo
     - Determine directory and file naming conventions and locations

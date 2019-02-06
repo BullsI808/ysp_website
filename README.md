@@ -1,8 +1,8 @@
 # Youth Service Project Website
 YSP Unicorns<br />
-Kaleb R. Horvath
-Justin E. Basuil
-Carter J. Halfmann
+- Kaleb R. Horvath, back end
+- Justin E. Basuil, project manager / back end
+- Carter J. Halfmann, all purpose
 
 ## Project Challenge
 In essence, our goal is to build an efficient, compact, and easy-to-use 

@@ -10,9 +10,9 @@ website that is small and jUsT wErKs!
 
 ## Project Proposal
 - HTML and CSS
--axios routes
--psql
--AWS
+- axios routes
+- psql
+- AWS
 
 ## Project Plan
 List the milestones in your project and high level tasks for each, for example:

@@ -23,11 +23,13 @@ List the milestones in your project and high level tasks for each, for example:
     - Design Mockup for page 1
     - Design Mockup for page 2
     
-    -basic template for page 1
-    -basic template for page 2
+    - Basic template for page 1
+    - Basic template for page 2
 - Set up project file structure
     - Determine workflow, who will be project manager and maintainer of repo
+     - project manager: Justin Basuil
     - Determine directory and file naming conventions and locations
+     - keep files named based on what they do and located logically
 - Begin client-side development
     - List of client-side tasks
 - Begin server-side development

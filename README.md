@@ -9,7 +9,10 @@ In essence, our goal is to build an efficient, compact, and easy-to-use
 website that is small and jUsT wErKs!
 
 ## Project Proposal
-
+- HTML and CSS
+-axios routes
+-psql
+-AWS
 
 ## Project Plan
 List the milestones in your project and high level tasks for each, for example:

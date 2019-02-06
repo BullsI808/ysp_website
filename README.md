@@ -32,16 +32,21 @@ List the milestones in your project and high level tasks for each, for example:
      - keep files named based on what they do and located logically
 - Begin client-side development
     - List of client-side tasks
+    
+    - create all pages needed with links
+    - insert template
 - Begin server-side development
     - List of server-side tasks
+    
+    - databases will be used to demonstrate what we can do. as of right now, no server side tasks
 - Style client-side app
     - Create css file for page 1
     - Create css file for page 2
 - Create video demo
 - Create presentation
 - Stretch Goals 
-    - Stretch Goal 1
-    - Stretch Goal 2
+    - use a database to call and render wanted information
+    - make website ready to deploy to the internet if possible
     
 ## Key Findings
 Explain your hurdles throughout the project and how your team overcame them. Show how your project changed or scope changed throughout the development of your solution.

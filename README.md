@@ -26,27 +26,42 @@ List the milestones in your project and high level tasks for each, for example:
     - Basic template for page 1
     - Basic template for page 2
 - Set up project file structure
-    - Determine workflow, who will be project manager and maintainer of repo
-     - project manager: Justin Basuil
-    - Determine directory and file naming conventions and locations
-     - keep files named based on what they do and located logically
+```shell
+node_modules/
+public/
+routes/
+test-data/
+.gitignore
+config.json
+db.sql
+LICENSE
+missing_files.txt
+package-lock.json
+package.json
+README.md
+serverless.yml
+```
 - Begin client-side development
-    - List of client-side tasks
-    
-    - create all pages needed with links
-    - insert template
+```shell
+> (html) main-page 
+    - all on one-page columnized (for now)
+        - download page for PDF application form
+        - contact section at very bottom
+> (css) no framework just basic styles
+```
 - Begin server-side development
-    - List of server-side tasks
-    
-    - databases will be used to demonstrate what we can do. as of right now, no server side tasks
+```shell
+> (Axios for client/server routes) 
+    - get/post/put/delete (?)
+> (PostgreSQL for server-side storage)
+    - using DevLeague AWS-PSQL server 
+    - using standardized port for TCP communications
+    - encrypted tables for data protection
+```
 - Style client-side app
-    - Create css file for page 1
-    - Create css file for page 2
-- Create video demo
-- Create presentation
-- Stretch Goals 
-    - use a database to call and render wanted information
-    - make website ready to deploy to the internet if possible
+```shell
+see public/ for template
+```
     
 ## Key Findings
 Explain your hurdles throughout the project and how your team overcame them. Show how your project changed or scope changed throughout the development of your solution.
@@ -55,3 +70,4 @@ Explain your hurdles throughout the project and how your team overcame them. Sho
 Explain what your team learned in developing this project. 
 
 **Note: Include a short description in the repo description field when creating your team's repo, also include a link to your final prototype.**
+ 

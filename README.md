@@ -16,17 +16,8 @@ website that is small and jUsT wErKs!
 
 ## Project Plan
 List the milestones in your project and high level tasks for each, for example:
-- Create basic template for website.
-    - Wireframe for page 1
-    - Wireframe for page 2
-    
-    - Design Mockup for page 1
-    - Design Mockup for page 2
-    
-    - Basic template for page 1
-    - Basic template for page 2
-- Set up project file structure
-```shell
+* Set up project file structure
+```
 node_modules/
 public/
 routes/
@@ -41,16 +32,16 @@ package.json
 README.md
 serverless.yml
 ```
-- Begin client-side development
-```shell
+* Begin client-side development
+```
 > (html) main-page 
     - all on one-page columnized (for now)
         - download page for PDF application form
         - contact section at very bottom
 > (css) no framework just basic styles
 ```
-- Begin server-side development
-```shell
+* Begin server-side development
+```
 > (Axios for client/server routes) 
     - get/post/put/delete (?)
 > (PostgreSQL for server-side storage)
@@ -58,8 +49,8 @@ serverless.yml
     - using standardized port for TCP communications
     - encrypted tables for data protection
 ```
-- Style client-side app
-```shell
+* Style client-side app
+```
 see public/ for template
 ```
     

@@ -13,22 +13,22 @@ const pool = new Pool({
 });
 
 
-//change name to make it fit
-module.exports.postMovie = (event, context, callback) => {
+//name is changed to content right now as we dont know specifically what will be added
+module.exports.postcontent = (event, context, callback) => {
 console.log('event', event);
 
-//change vars to make it work
+//change vars to make it work, names changed to make it fit more
 
 let name = event.body.movie_title;
-let releaseDate = event.body.movie_release_date;
-let genre = event.body.movie_genre;
+let postDate = event.body.movie_release_date;
+let topic = event.body.movie_genre;
 
  const insertNewMovie = `INSERT INTO ${table} VALUES(default, $1 , $2 , $3)`;
 
  pool.connect()
   .then(client =>{
     client.release()
-    return client.query(insertNewMovie, [name, releaseDate, genre])
+    return client.query(insertNewMovie, [name, postDate, topic])
   })
   .then(res =>{
   

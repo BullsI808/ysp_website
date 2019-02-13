@@ -14,7 +14,7 @@ const pool = new Pool({
 
 
 //name is changed to content right now as we dont know specifically what will be added
-module.exports.postcontent = (event, context, callback) => {
+module.exports.postContent = (event, context, callback) => {
 console.log('event', event);
 
 //change vars to make it work, names changed to make it fit more

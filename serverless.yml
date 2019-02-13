@@ -60,11 +60,11 @@ functions:
           path: getMovies
           method: get
           cors: true
-  postMovie:
-    handler: routes/post.postMovie
+  postContent:
+    handler: routes/post.postContent
     events:
       - http:
-          path: postMovie
+          path: postContent
           method: post
           cors: true
           integration: lambda

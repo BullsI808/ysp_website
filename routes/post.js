@@ -19,16 +19,19 @@ console.log('event', event);
 
 //change vars to make it work, names changed to make it fit more
 
-let name = event.body.movie_title;
-let postDate = event.body.movie_release_date;
-let topic = event.body.movie_genre;
+// let name = event.body.movie_title;
+// let postDate = event.body.movie_release_date;
+// let topic = event.body.movie_genre;
 
- const insertNewMovie = `INSERT INTO ${table} VALUES(default, $1 , $2 , $3)`;
+let id;
+let content;
+
+ const insertNewMovie = `INSERT INTO ${table} VALUES(default, $1)`;
 
  pool.connect()
   .then(client =>{
     client.release()
-    return client.query(insertNewMovie, [name, postDate, topic])
+    return client.query(insertNewMovie, [id, content])
   })
   .then(res =>{
   

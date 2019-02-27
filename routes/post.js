@@ -23,15 +23,15 @@ console.log('event', event);
 // let postDate = event.body.movie_release_date;
 // let topic = event.body.movie_genre;
 
-let id;
-let content;
 
- const insertNewMovie = `INSERT INTO ${table} VALUES(default, $1)`;
+let content = event.body.item_data;
+
+ const insertNewContent = `INSERT INTO ${table} VALUES(default, $1)`;
 
  pool.connect()
   .then(client =>{
     client.release()
-    return client.query(insertNewMovie, [id, content])
+    return client.query(insertNewContent, [content])
   })
   .then(res =>{
   

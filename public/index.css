@@ -89,7 +89,7 @@ h1 {
 .nav{
     background-color: black;
 }
-.nav ul li{
+.nav a{
   display:inline-block;
   color: white;
   height: 80px;
@@ -100,9 +100,12 @@ h1 {
 
 a {
   text-align: center;
+  color:white;
+  text-decoration: none;
+
 }
 
-.nav ul li:hover{
+.nav a:hover{
   background: #117bff;
   cursor: pointer;
   transition: background .5s;

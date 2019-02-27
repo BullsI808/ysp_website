@@ -121,15 +121,17 @@ a {
 .jumbotron {
 	height: 600px; 
 	text-align: center;
-  color:white;
+  color:black;
   background-size: cover;
   height:600px;
+  
 }
 
 .jumbotron .container {
 	position: relative;
 	top: 220px;
 }
+/* Why so many errors? Also why does it still work */
 .jumbotron a: hover{
   background: #117bff;
   cursor: pointer;
@@ -163,4 +165,5 @@ a {
     width: 100%;
   }
 }
+
 

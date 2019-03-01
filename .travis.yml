@@ -1,0 +1,7 @@
+language: node
+node:
+  - "3.4"
+  - "3.5-dev"  # 3.5 development branch
+# command to install dependencies
+install:
+  - npm install -e .

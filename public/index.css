@@ -41,7 +41,7 @@ body {
   margin-bottom: 40px;
   letter-spacing: 8px;
 }
-.header a: hover{
+.header a:hover{
   background: #117bff;
   cursor: pointer;
   transition: background .5s;
@@ -120,6 +120,14 @@ a {
   height: 128px;
 }
 
+#because{
+  color:white;
+  visibility: hidden;
+}
+
+#aboutus{
+margin-top:-500px;  
+}
 /* Jumbotron */
 .jumbotron {
 	height: 600px; 
@@ -135,7 +143,7 @@ a {
 	top: 220px;
 }
 /* Why so many errors? Also why does it still work */
-.jumbotron a: hover{
+.jumbotron a:hover{
   background: #117bff;
   cursor: pointer;
   transition: background .5s;
@@ -146,11 +154,12 @@ a {
 	font-size: 14px;
   color:white;
   background-color: black;
+  margin-top: 300px;
 }
 .footer p{
   height: 80px;
   line-height: 80px;
-  margin: 0px;
+  margin:0px;
 }
 
 /* Media Queries */
@@ -169,25 +178,4 @@ a {
   }
 }
 
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 280px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
 

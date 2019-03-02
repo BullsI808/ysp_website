@@ -215,7 +215,26 @@ font-size:25px;
 #linkcontainer{
 display:flex;
 justify-content:center;
-align-items:center;
+align-items:center; 
 margin-top:30px;
 
 }
+#inputcontainer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:50px;
+
+}
+#inputbox{
+  padding: 0;
+  height: 30px;
+  position: relative;
+  outline: none;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0,0,0,.15);
+  background-color: white;
+  font-size: 16px;
+}
+
+

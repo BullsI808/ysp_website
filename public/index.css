@@ -237,4 +237,18 @@ margin-top:30px;
   font-size: 16px;
 }
 
+#sponsorsubcontainer{
+display:flex;
 
+}
+.word{
+margin:5px;
+}
+#amazing{
+color:blue;
+}
+#sponsorcontainer{
+justify-content:center;
+align-items:center;
+display:flex;
+}

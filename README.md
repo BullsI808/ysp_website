@@ -6,7 +6,7 @@ https://github.com/PyDever/kwaf
 YSP Unicorns<br />
 - Kaleb R. Horvath, back end
 - Justin E. Basuil, project manager / back end
-- Carter J. Halfmann, all purpose
+- Carter J. Halfmann, front end
 
 ## Project Challenge
 In essence, our goal is to build an efficient, compact, and easy-to-use 

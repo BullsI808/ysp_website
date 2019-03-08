@@ -14,16 +14,16 @@ const pool = new Pool({
 module.exports.deleteContent = (event, context, callback) => {
 console.log('event', event);
 
-let name = event.body.item_content;
+
 //let outdatedName = event.body.grade_level;
 let id = event.body.item_id;
 
- const deleteMovie = `DELETE FROM  ${table} WHERE item_id = $1 AND item_content = $2 `;
+ const deleteContent = `DELETE FROM  ${table} WHERE item_id = $1`;
 
  pool.connect()
   .then(client =>{
     client.release()
-    return client.query(deleteContent, [id, name])
+    return client.query(deleteContent, [id])
   })
   .then(res =>{
   

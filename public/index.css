@@ -125,7 +125,7 @@ a {
 }
 
 #aboutus{
-margin-top:-500px;  
+margin-top:0px;  
 }
 /* Jumbotron */
 .jumbotron {
@@ -188,7 +188,7 @@ justify-content:center;
 align-items:center;
 background-color:black;
 color:white;
-flex:wrap;
+
 
 }
 #btca_link{
@@ -208,8 +208,12 @@ font-weight:400;
 }
 
 #btca_header{
-font-family: 'Roboto', sans-serif;
-font-size:25px;
+  display:inline-block;
+  color: white;
+  height: 80px;
+  line-height: 80px;
+  padding: 0px 10px;
+  transition: background 0.5s;
 }
 
 #linkcontainer{
@@ -237,16 +241,8 @@ margin-top:30px;
   font-size: 16px;
 }
 
-#sponsorsubcontainer{
-display:flex;
 
-}
-.word{
-margin:5px;
-}
-#amazing{
-color:blue;
-}
+
 #sponsorcontainer{
 justify-content:center;
 align-items:center;
@@ -256,5 +252,28 @@ display:flex;
 .headers{
 margin-left: 170px;
   }
+
+#aboutdiv{
+display:flex;
+align-items:center;
+justify-content: center;
+}
+
+#boardcontainer{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+#yspcont{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+#members{
+display:flex;
+align-items:center;
+justify-content:center;
+}
 
 

@@ -28,6 +28,14 @@ body {
   text-align: center;
 }
 
+.about-container{
+  width:100vw;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+
 .header h1 {
 	font-size: 80px;
 	line-height: 100px; 
@@ -112,7 +120,7 @@ a {
 }
 /* Main */
 .main .container {
-	margin: 80px auto;
+	
 }
 .main img{
   float: left;

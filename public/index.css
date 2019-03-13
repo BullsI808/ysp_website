@@ -12,6 +12,8 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
+  width: 97vw;
 }
 .container {
   margin: 0 auto;
@@ -32,7 +34,12 @@ body {
   top: 200px;
   text-align: center;
 }
-
+.ul {
+  width: 100%;
+}
+.section-container {
+  width: 100vw;
+}
 .about-container {
   width: 980px;
   display: flex;
@@ -89,6 +96,9 @@ h1 {
   transition: background 0.5s;
 }
 
+.about-inner-container {
+  width: 100vw;
+}
 /* Nav */
 .nav ul {
   list-style: none;
@@ -120,8 +130,7 @@ a {
   transition: background 0.5s;
 }
 /* Main */
-.main .container {
-}
+
 .main img {
   float: left;
   margin: 50px 80px 50px 0;

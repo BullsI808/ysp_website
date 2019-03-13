@@ -76,7 +76,7 @@ functions:
           method: put
           cors: true
           integration: lambda
-  deleteMovie:
+  deleteContent:
     handler: routes/delete.deleteContent
     events:
       - http:

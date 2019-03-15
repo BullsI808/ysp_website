@@ -288,15 +288,18 @@ a {
   align-items: center;
   justify-content: center;
 }
-
 .footer-container {
   width: 100vw;
 }
-
 #space{
 margin-bottom:200px;
 
 }
 p{
   align-self:left;
+}
+
+#contact{
+margin-top:50px;
+
 }

@@ -39,6 +39,7 @@ body {
 }
 .section-container {
   width: 100vw;
+  margin-top:0px;
 }
 .about-container {
   width: 980px;
@@ -213,7 +214,7 @@ a {
   font-size: 15px;
   background-color: black;
   font-weight: 400;
-  margin-top:400px;
+  margin-top:300px;
 }
 
 #btca_link:hover {
@@ -229,6 +230,7 @@ a {
   line-height: 80px;
   padding: 0px 10px;
   transition: background 0.5s;
+  
 }
 
 #linkcontainer {
@@ -289,4 +291,12 @@ a {
 
 .footer-container {
   width: 100vw;
+}
+
+#space{
+margin-bottom:200px;
+
+}
+p{
+  align-self:left;
 }

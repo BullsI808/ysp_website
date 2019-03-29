@@ -172,6 +172,8 @@ a {
   color: white;
   background-color: black;
   margin-top: 300px;
+  width:fit-content;
+  flex-grow:1;
 
 }
 .footer p {
@@ -288,15 +290,21 @@ a {
   align-items: center;
   justify-content: center;
 }
-
 .footer-container {
   width: 100vw;
 }
-
 #space{
 margin-bottom:200px;
 
 }
 p{
   align-self:left;
+}
+
+#contact{
+margin-top:50px;
+
+}
+#footer-container{
+display:flex;
 }

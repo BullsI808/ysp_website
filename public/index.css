@@ -172,6 +172,8 @@ a {
   color: white;
   background-color: black;
   margin-top: 300px;
+  width:fit-content;
+  flex-grow:1;
 
 }
 .footer p {
@@ -302,4 +304,7 @@ p{
 #contact{
 margin-top:50px;
 
+}
+#footer-container{
+display:flex;
 }

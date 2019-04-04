@@ -308,3 +308,9 @@ margin-top:50px;
 #footer-container{
 display:flex;
 }
+#donatecontainer{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+

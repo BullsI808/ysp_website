@@ -318,4 +318,21 @@ justify-content:center;
   display:flex;
   flex-direction:column;
   align-items:center;
+  margin-bottom: 240px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#sponsortxt{
+  color:white;
+  display: inline-block;
+  
+ 
+}
+#sponsortxt-container{
+display:flex;
+align-items:center;
+justify-content:center;
+
+
 }

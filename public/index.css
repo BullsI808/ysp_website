@@ -326,13 +326,9 @@ justify-content:center;
 #sponsortxt{
   color:white;
   display: inline-block;
-  
- 
 }
 #sponsortxt-container{
 display:flex;
 align-items:center;
 justify-content:center;
-
-
 }

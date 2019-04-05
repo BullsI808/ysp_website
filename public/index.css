@@ -326,8 +326,6 @@ justify-content:center;
 #sponsortxt{
   color:white;
   display: inline-block;
-  
- 
 }
 
 h1#sponsortxt {
@@ -338,7 +336,4 @@ h1#sponsortxt {
 display:flex;
 align-items:center;
 justify-content:center;
-font-size: 16px;
-
-
 }

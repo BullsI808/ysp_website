@@ -337,3 +337,7 @@ display:flex;
 align-items:center;
 justify-content:center;
 }
+
+#donatemargin{
+margin-top:10px;
+}

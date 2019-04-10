@@ -344,5 +344,9 @@ justify-content:center;
 
 #donatemargin{
 width:100%;
+margin-top:10px;
+}
 
+.gallery{
+  display:none;
 }

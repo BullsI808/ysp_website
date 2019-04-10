@@ -34,3 +34,32 @@ axios.get('https://j4m4803yml.execute-api.us-west-2.amazonaws.com/dev/getContent
 // .catch(function(err){
 //      console.log('err', err);
 //  });
+
+
+
+//gallery code
+
+var gallery = document.querySelector('.gallery');
+var slideIndex = 1;
+
+showDivs(slideIndex);
+
+function plusDivs(n){
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n){
+    if (n > gallery.length){
+        slideIndex = 1
+    }
+    
+    if (n < 1) {
+        slideIndex = gallery.length
+    }
+
+    for(var i = 0; i < gallery.length; i++) {
+        gallery[i].style.display = "none";
+    }
+
+    gallery[slideIndex - 1].style.display = "block";
+}

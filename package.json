@@ -19,6 +19,7 @@
   "homepage": "https://github.com/BullsI808/movie-list-public#readme",
   "dependencies": {
     "pg": "^7.7.1",
-    "pg-pool": "^2.0.6"
+    "pg-pool": "^2.0.6",
+    "slick-carousel": "^1.8.1"
   }
 }

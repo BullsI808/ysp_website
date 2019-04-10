@@ -343,7 +343,7 @@ justify-content:center;
 }
 
 #donatemargin{
-width:100%;
+width:1375px;
 margin-top:10px;
 display:flex;
 flex-grow:1;
@@ -351,5 +351,9 @@ flex-grow:1;
 
 #donatediv{
 display:flex;
+}
+
+#donatewords{
+color:white; 
 
 }

@@ -345,8 +345,11 @@ justify-content:center;
 #donatemargin{
 width:100%;
 margin-top:10px;
+display:flex;
+flex-grow:1;
 }
 
-.gallery{
-  display:none;
+#donatediv{
+display:flex;
+
 }

@@ -39,10 +39,22 @@ body {
 }
 .section-container {
   width: 100vw;
-  margin-top:0px;
+  margin-top: 0px;
 }
+
+.overall {
+  display: flex;
+}
+
 .about-container {
-  width: 980px;
+  width: 490px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nalei-container {
+  width: 490px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -109,7 +121,7 @@ h1 {
 }
 .nav {
   background-color: black;
-  margin-top:-200px;
+  margin-top: -200px;
 }
 .nav a {
   display: inline-block;
@@ -172,9 +184,8 @@ a {
   color: white;
   background-color: black;
   margin-top: 300px;
-  width:fit-content;
-  flex-grow:1;
-
+  width: fit-content;
+  flex-grow: 1;
 }
 .footer p {
   height: 80px;
@@ -216,7 +227,7 @@ a {
   font-size: 15px;
   background-color: black;
   font-weight: 400;
-  margin-top:300px;
+  margin-top: 300px;
 }
 
 #btca_link:hover {
@@ -232,7 +243,6 @@ a {
   line-height: 80px;
   padding: 0px 10px;
   transition: background 0.5s;
-  
 }
 
 #linkcontainer {
@@ -293,38 +303,36 @@ a {
 .footer-container {
   width: 100vw;
 }
-#space{
-margin-bottom:200px;
-
+#space {
+  margin-bottom: 200px;
 }
-p{
-  align-self:left;
-}
-
-#contact{
-margin-top:50px;
-
-}
-#footer-container{
-display:flex;
-}
-#donatecontainer{
-display:flex;
-align-items:center;
-justify-content:center;
+p {
+  align-self: left;
 }
 
-#TNLAF-container{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
+#contact {
+  margin-top: 50px;
+}
+#footer-container {
+  display: flex;
+}
+#donatecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#TNLAF-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 240px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#sponsortxt{
-  color:white;
+#sponsortxt {
+  color: white;
   display: inline-block;
 }
 
@@ -332,29 +340,27 @@ h1#sponsortxt {
   font-size: 16px;
 }
 
-#sponsortxt-container{
-display:flex;
-align-items:center;
-justify-content:center;
+#sponsortxt-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.gallery{
-  display:none;
+.gallery {
+  display: none;
 }
 
-#donatemargin{
-width:1375px;
-margin-top:10px;
-display:flex;
-flex-grow:1;
+#donatemargin {
+  width: 1375px;
+  margin-top: 10px;
+  display: flex;
+  flex-grow: 1;
 }
 
-#donatediv{
-display:flex;
+#donatediv {
+  display: flex;
 }
 
-#donatewords{
-color:white; 
-
+#donatewords {
+  color: white;
 }
-

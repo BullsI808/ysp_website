@@ -49,13 +49,9 @@ function plusDivs(n){
 }
 
 function showDivs(n){
-    if (n > gallery.length){
-        slideIndex = 1
-    }
+    if (n > gallery.length){slideIndex = 1}
     
-    if (n < 1) {
-        slideIndex = gallery.length
-    }
+    if (n < 1) {slideIndex = gallery.length}
 
     for(var i = 0; i < gallery.length; i++) {
         gallery[i].style.display = "none";
